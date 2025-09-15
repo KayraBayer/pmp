@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { DEFAULTS, GROUPS } from "./config/fields";
 import { compute } from "./utils/compute";
 import type { Inputs, Results } from "./types";
