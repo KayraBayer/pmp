@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* src/index.css */
+.pdf-safe, .pdf-safe * {
+  background-image: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+.pdf-safe { background-color: #0b1220 !important; color: #e5e7eb !important; }
+.pdf-safe * { border-color: rgba(255,255,255,0.12) !important; }
+.pdf-safe [class*="ring-"] {
+  --tw-ring-color: rgba(255,255,255,0.12) !important;
+  --tw-ring-offset-shadow: 0 0 #0000 !important;
+  --tw-ring-shadow: 0 0 #0000 !important;
+}
